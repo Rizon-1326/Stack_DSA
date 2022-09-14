@@ -36,14 +36,6 @@ struct node *insert(struct node *node, int key) {
   return node;
 }
 
-struct node *minValueNode(struct node *node) {
-  struct node *current = node;
-
-  while (current && current->left != NULL)
-    current = current->left;
-
-  return current;
-}
 
 int main() {
   struct node *root = NULL;
