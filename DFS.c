@@ -57,7 +57,7 @@ int main()
     scanf("%d",&sourceNode);
 
     DFS(sourceNode); //DFS(1)
-    parent0k,[sourceNode] = -1;
+    parent[sourceNode] = -1;
 
     printf("Final-->>\n");
     for (int i = 0; i < max_size; ++i)
